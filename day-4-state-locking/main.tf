@@ -1,7 +1,7 @@
 resource "aws_vpc" "name" {
     cidr_block = var.vpc_id
     tags = {
-      Name = "pro-dev1222222222"
+      Name = "pro-dynamo00"
     }
 }
 
